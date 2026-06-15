@@ -1,0 +1,1047 @@
+{
+  "task": "user_interruption",
+  "dataset": "callfc",
+  "split": "test",
+  "samples": [
+    {
+      "id": "fr_5464#A#1409.250_1409.640",
+      "quality_score": 0.8549,
+      "source_wav": "data/callfc/data/fr_5464.wav",
+      "interrupt_start": 1409.25,
+      "interrupt_end": 1409.64,
+      "interrupt_events": "",
+      "start": 1409.25,
+      "duration": 0.39
+    },
+    {
+      "id": "fr_5506#A#1539.046_1539.256",
+      "quality_score": 0.8268,
+      "source_wav": "data/callfc/data/fr_5506.wav",
+      "interrupt_start": 1539.046,
+      "interrupt_end": 1539.256,
+      "interrupt_events": "",
+      "start": 1539.046,
+      "duration": 0.21
+    },
+    {
+      "id": "fr_5499#A#1546.118_1547.018",
+      "quality_score": 0.8074,
+      "source_wav": "data/callfc/data/fr_5499.wav",
+      "interrupt_start": 1546.118,
+      "interrupt_end": 1547.018,
+      "interrupt_events": "",
+      "start": 1546.118,
+      "duration": 0.9
+    },
+    {
+      "id": "fr_5465#A#1237.090_1237.662",
+      "quality_score": 0.8,
+      "source_wav": "data/callfc/data/fr_5465.wav",
+      "interrupt_start": 1237.09,
+      "interrupt_end": 1237.662,
+      "interrupt_events": "",
+      "start": 1237.09,
+      "duration": 0.57
+    },
+    {
+      "id": "fr_5498#A#286.582_288.907",
+      "quality_score": 0.7908,
+      "source_wav": "data/callfc/data/fr_5498.wav",
+      "interrupt_start": 286.582,
+      "interrupt_end": 288.907,
+      "interrupt_events": "",
+      "start": 286.582,
+      "duration": 2.32
+    },
+    {
+      "id": "fr_5499#A#419.658_422.128",
+      "quality_score": 0.7878,
+      "source_wav": "data/callfc/data/fr_5499.wav",
+      "interrupt_start": 419.658,
+      "interrupt_end": 422.128,
+      "interrupt_events": "",
+      "start": 419.658,
+      "duration": 2.47
+    },
+    {
+      "id": "fr_5460#A#626.950_629.890",
+      "quality_score": 0.7836,
+      "source_wav": "data/callfc/data/fr_5460.wav",
+      "interrupt_start": 626.95,
+      "interrupt_end": 629.89,
+      "interrupt_events": "",
+      "start": 626.95,
+      "duration": 2.94
+    },
+    {
+      "id": "fr_5410#A#537.536_539.864",
+      "quality_score": 0.7772,
+      "source_wav": "data/callfc/data/fr_5410.wav",
+      "interrupt_start": 537.536,
+      "interrupt_end": 539.864,
+      "interrupt_events": "",
+      "start": 537.536,
+      "duration": 2.33
+    },
+    {
+      "id": "fr_5506#A#639.346_639.916",
+      "quality_score": 0.7722,
+      "source_wav": "data/callfc/data/fr_5506.wav",
+      "interrupt_start": 639.346,
+      "interrupt_end": 639.916,
+      "interrupt_events": "",
+      "start": 639.346,
+      "duration": 0.57
+    },
+    {
+      "id": "fr_5499#A#1705.440_1706.500",
+      "quality_score": 0.7647,
+      "source_wav": "data/callfc/data/fr_5499.wav",
+      "interrupt_start": 1705.44,
+      "interrupt_end": 1706.5,
+      "interrupt_events": "",
+      "start": 1705.44,
+      "duration": 1.06
+    },
+    {
+      "id": "fr_5506#A#1177.122_1177.662",
+      "quality_score": 0.7596,
+      "source_wav": "data/callfc/data/fr_5506.wav",
+      "interrupt_start": 1177.122,
+      "interrupt_end": 1177.662,
+      "interrupt_events": "",
+      "start": 1177.122,
+      "duration": 0.54
+    },
+    {
+      "id": "fr_5498#A#592.361_598.277",
+      "quality_score": 0.7479,
+      "source_wav": "data/callfc/data/fr_5498.wav",
+      "interrupt_start": 592.361,
+      "interrupt_end": 598.277,
+      "interrupt_events": "",
+      "start": 592.361,
+      "duration": 5.92
+    },
+    {
+      "id": "fr_5483#A#914.933_923.828",
+      "quality_score": 0.7472,
+      "source_wav": "data/callfc/data/fr_5483.wav",
+      "interrupt_start": 914.933,
+      "interrupt_end": 923.828,
+      "interrupt_events": "",
+      "start": 914.933,
+      "duration": 8.89
+    },
+    {
+      "id": "fr_5460#A#731.604_732.402",
+      "quality_score": 0.7374,
+      "source_wav": "data/callfc/data/fr_5460.wav",
+      "interrupt_start": 731.604,
+      "interrupt_end": 732.402,
+      "interrupt_events": "",
+      "start": 731.604,
+      "duration": 0.8
+    },
+    {
+      "id": "fr_5483#A#586.519_588.562",
+      "quality_score": 0.7142,
+      "source_wav": "data/callfc/data/fr_5483.wav",
+      "interrupt_start": 586.519,
+      "interrupt_end": 588.562,
+      "interrupt_events": "",
+      "start": 586.519,
+      "duration": 2.04
+    },
+    {
+      "id": "fr_5485#A#1155.464_1155.878",
+      "quality_score": 0.7135,
+      "source_wav": "data/callfc/data/fr_5485.wav",
+      "interrupt_start": 1155.464,
+      "interrupt_end": 1155.878,
+      "interrupt_events": "",
+      "start": 1155.464,
+      "duration": 0.41
+    },
+    {
+      "id": "fr_5410#A#851.124_852.915",
+      "quality_score": 0.7126,
+      "source_wav": "data/callfc/data/fr_5410.wav",
+      "interrupt_start": 851.124,
+      "interrupt_end": 852.915,
+      "interrupt_events": "",
+      "start": 851.124,
+      "duration": 1.79
+    },
+    {
+      "id": "fr_5464#A#596.264_596.618",
+      "quality_score": 0.711,
+      "source_wav": "data/callfc/data/fr_5464.wav",
+      "interrupt_start": 596.264,
+      "interrupt_end": 596.618,
+      "interrupt_events": "",
+      "start": 596.264,
+      "duration": 0.35
+    },
+    {
+      "id": "fr_5474#A#1415.662_1417.322",
+      "quality_score": 0.7088,
+      "source_wav": "data/callfc/data/fr_5474.wav",
+      "interrupt_start": 1415.662,
+      "interrupt_end": 1417.322,
+      "interrupt_events": "",
+      "start": 1415.662,
+      "duration": 1.66
+    },
+    {
+      "id": "fr_5405#A#1656.002_1656.612",
+      "quality_score": 0.7081,
+      "source_wav": "data/callfc/data/fr_5405.wav",
+      "interrupt_start": 1656.002,
+      "interrupt_end": 1656.612,
+      "interrupt_events": "",
+      "start": 1656.002,
+      "duration": 0.61
+    },
+    {
+      "id": "fr_5474#A#883.250_884.780",
+      "quality_score": 0.701,
+      "source_wav": "data/callfc/data/fr_5474.wav",
+      "interrupt_start": 883.25,
+      "interrupt_end": 884.78,
+      "interrupt_events": "",
+      "start": 883.25,
+      "duration": 1.53
+    },
+    {
+      "id": "fr_5460#A#936.622_940.584",
+      "quality_score": 0.7003,
+      "source_wav": "data/callfc/data/fr_5460.wav",
+      "interrupt_start": 936.622,
+      "interrupt_end": 940.584,
+      "interrupt_events": "",
+      "start": 936.622,
+      "duration": 3.96
+    },
+    {
+      "id": "fr_5499#A#1185.794_1185.904",
+      "quality_score": 0.6991,
+      "source_wav": "data/callfc/data/fr_5499.wav",
+      "interrupt_start": 1185.794,
+      "interrupt_end": 1185.904,
+      "interrupt_events": "",
+      "start": 1185.794,
+      "duration": 0.11
+    },
+    {
+      "id": "fr_5500#A#135.650_136.170",
+      "quality_score": 0.6957,
+      "source_wav": "data/callfc/data/fr_5500.wav",
+      "interrupt_start": 135.65,
+      "interrupt_end": 136.17,
+      "interrupt_events": "",
+      "start": 135.65,
+      "duration": 0.52
+    },
+    {
+      "id": "fr_5474#A#837.284_839.914",
+      "quality_score": 0.69,
+      "source_wav": "data/callfc/data/fr_5474.wav",
+      "interrupt_start": 837.284,
+      "interrupt_end": 839.914,
+      "interrupt_events": "",
+      "start": 837.284,
+      "duration": 2.63
+    },
+    {
+      "id": "fr_5410#A#1238.360_1239.400",
+      "quality_score": 0.6843,
+      "source_wav": "data/callfc/data/fr_5410.wav",
+      "interrupt_start": 1238.36,
+      "interrupt_end": 1239.4,
+      "interrupt_events": "",
+      "start": 1238.36,
+      "duration": 1.04
+    },
+    {
+      "id": "fr_5460#A#105.626_105.796",
+      "quality_score": 0.6793,
+      "source_wav": "data/callfc/data/fr_5460.wav",
+      "interrupt_start": 105.626,
+      "interrupt_end": 105.796,
+      "interrupt_events": "",
+      "start": 105.626,
+      "duration": 0.17
+    },
+    {
+      "id": "fr_5482#A#443.807_449.137",
+      "quality_score": 0.6495,
+      "source_wav": "data/callfc/data/fr_5482.wav",
+      "interrupt_start": 443.807,
+      "interrupt_end": 449.137,
+      "interrupt_events": "",
+      "start": 443.807,
+      "duration": 5.33
+    },
+    {
+      "id": "fr_5506#A#981.298_982.398",
+      "quality_score": 0.6448,
+      "source_wav": "data/callfc/data/fr_5506.wav",
+      "interrupt_start": 981.298,
+      "interrupt_end": 982.398,
+      "interrupt_events": "",
+      "start": 981.298,
+      "duration": 1.1
+    },
+    {
+      "id": "fr_5485#A#1144.239_1147.132",
+      "quality_score": 0.6356,
+      "source_wav": "data/callfc/data/fr_5485.wav",
+      "interrupt_start": 1144.239,
+      "interrupt_end": 1147.132,
+      "interrupt_events": "",
+      "start": 1144.239,
+      "duration": 2.89
+    },
+    {
+      "id": "fr_5474#A#1595.458_1595.568",
+      "quality_score": 0.633,
+      "source_wav": "data/callfc/data/fr_5474.wav",
+      "interrupt_start": 1595.458,
+      "interrupt_end": 1595.568,
+      "interrupt_events": "",
+      "start": 1595.458,
+      "duration": 0.11
+    },
+    {
+      "id": "fr_5499#A#733.806_733.996",
+      "quality_score": 0.6303,
+      "source_wav": "data/callfc/data/fr_5499.wav",
+      "interrupt_start": 733.806,
+      "interrupt_end": 733.996,
+      "interrupt_events": "",
+      "start": 733.806,
+      "duration": 0.19
+    },
+    {
+      "id": "fr_5500#A#866.974_867.094",
+      "quality_score": 0.6269,
+      "source_wav": "data/callfc/data/fr_5500.wav",
+      "interrupt_start": 866.974,
+      "interrupt_end": 867.094,
+      "interrupt_events": "",
+      "start": 866.974,
+      "duration": 0.12
+    },
+    {
+      "id": "fr_5499#A#1117.892_1118.262",
+      "quality_score": 0.6242,
+      "source_wav": "data/callfc/data/fr_5499.wav",
+      "interrupt_start": 1117.892,
+      "interrupt_end": 1118.262,
+      "interrupt_events": "",
+      "start": 1117.892,
+      "duration": 0.37
+    },
+    {
+      "id": "fr_5482#A#572.292_572.654",
+      "quality_score": 0.6221,
+      "source_wav": "data/callfc/data/fr_5482.wav",
+      "interrupt_start": 572.292,
+      "interrupt_end": 572.654,
+      "interrupt_events": "",
+      "start": 572.292,
+      "duration": 0.36
+    },
+    {
+      "id": "fr_5464#A#308.808_309.348",
+      "quality_score": 0.6212,
+      "source_wav": "data/callfc/data/fr_5464.wav",
+      "interrupt_start": 308.808,
+      "interrupt_end": 309.348,
+      "interrupt_events": "",
+      "start": 308.808,
+      "duration": 0.54
+    },
+    {
+      "id": "fr_5500#A#1762.795_1763.102",
+      "quality_score": 0.6129,
+      "source_wav": "data/callfc/data/fr_5500.wav",
+      "interrupt_start": 1762.795,
+      "interrupt_end": 1763.102,
+      "interrupt_events": "",
+      "start": 1762.795,
+      "duration": 0.31
+    },
+    {
+      "id": "fr_5474#A#1159.616_1160.370",
+      "quality_score": 0.6031,
+      "source_wav": "data/callfc/data/fr_5474.wav",
+      "interrupt_start": 1159.616,
+      "interrupt_end": 1160.37,
+      "interrupt_events": "",
+      "start": 1159.616,
+      "duration": 0.75
+    },
+    {
+      "id": "fr_5499#A#1163.529_1164.328",
+      "quality_score": 0.5924,
+      "source_wav": "data/callfc/data/fr_5499.wav",
+      "interrupt_start": 1163.529,
+      "interrupt_end": 1164.328,
+      "interrupt_events": "",
+      "start": 1163.529,
+      "duration": 0.8
+    },
+    {
+      "id": "fr_5474#A#1388.658_1390.215",
+      "quality_score": 0.5902,
+      "source_wav": "data/callfc/data/fr_5474.wav",
+      "interrupt_start": 1388.658,
+      "interrupt_end": 1390.215,
+      "interrupt_events": "",
+      "start": 1388.658,
+      "duration": 1.56
+    },
+    {
+      "id": "fr_5466#A#240.980_241.990",
+      "quality_score": 0.5884,
+      "source_wav": "data/callfc/data/fr_5466.wav",
+      "interrupt_start": 240.98,
+      "interrupt_end": 241.99,
+      "interrupt_events": "",
+      "start": 240.98,
+      "duration": 1.01
+    },
+    {
+      "id": "fr_5500#A#195.072_195.392",
+      "quality_score": 0.5813,
+      "source_wav": "data/callfc/data/fr_5500.wav",
+      "interrupt_start": 195.072,
+      "interrupt_end": 195.392,
+      "interrupt_events": "",
+      "start": 195.072,
+      "duration": 0.32
+    },
+    {
+      "id": "fr_5461#A#1523.426_1523.776",
+      "quality_score": 0.5768,
+      "source_wav": "data/callfc/data/fr_5461.wav",
+      "interrupt_start": 1523.426,
+      "interrupt_end": 1523.776,
+      "interrupt_events": "",
+      "start": 1523.426,
+      "duration": 0.35
+    },
+    {
+      "id": "fr_5482#A#172.130_172.410",
+      "quality_score": 0.576,
+      "source_wav": "data/callfc/data/fr_5482.wav",
+      "interrupt_start": 172.13,
+      "interrupt_end": 172.41,
+      "interrupt_events": "",
+      "start": 172.13,
+      "duration": 0.28
+    },
+    {
+      "id": "fr_5481#A#93.335_97.301",
+      "quality_score": 0.5638,
+      "source_wav": "data/callfc/data/fr_5481.wav",
+      "interrupt_start": 93.335,
+      "interrupt_end": 97.301,
+      "interrupt_events": "",
+      "start": 93.335,
+      "duration": 3.97
+    },
+    {
+      "id": "fr_5485#A#171.302_171.656",
+      "quality_score": 0.5557,
+      "source_wav": "data/callfc/data/fr_5485.wav",
+      "interrupt_start": 171.302,
+      "interrupt_end": 171.656,
+      "interrupt_events": "",
+      "start": 171.302,
+      "duration": 0.35
+    },
+    {
+      "id": "fr_5474#A#756.496_756.846",
+      "quality_score": 0.5472,
+      "source_wav": "data/callfc/data/fr_5474.wav",
+      "interrupt_start": 756.496,
+      "interrupt_end": 756.846,
+      "interrupt_events": "",
+      "start": 756.496,
+      "duration": 0.35
+    },
+    {
+      "id": "fr_5462#A#117.741_122.475",
+      "quality_score": 0.5389,
+      "source_wav": "data/callfc/data/fr_5462.wav",
+      "interrupt_start": 117.741,
+      "interrupt_end": 122.475,
+      "interrupt_events": "",
+      "start": 117.741,
+      "duration": 4.73
+    },
+    {
+      "id": "fr_5508#A#248.137_249.754",
+      "quality_score": 0.5355,
+      "source_wav": "data/callfc/data/fr_5508.wav",
+      "interrupt_start": 248.137,
+      "interrupt_end": 249.754,
+      "interrupt_events": "",
+      "start": 248.137,
+      "duration": 1.62
+    },
+    {
+      "id": "fr_5405#A#1570.098_1570.888",
+      "quality_score": 0.5318,
+      "source_wav": "data/callfc/data/fr_5405.wav",
+      "interrupt_start": 1570.098,
+      "interrupt_end": 1570.888,
+      "interrupt_events": "",
+      "start": 1570.098,
+      "duration": 0.79
+    },
+    {
+      "id": "fr_5460#A#703.646_704.706",
+      "quality_score": 0.5289,
+      "source_wav": "data/callfc/data/fr_5460.wav",
+      "interrupt_start": 703.646,
+      "interrupt_end": 704.706,
+      "interrupt_events": "",
+      "start": 703.646,
+      "duration": 1.06
+    },
+    {
+      "id": "fr_5474#A#206.624_206.834",
+      "quality_score": 0.5234,
+      "source_wav": "data/callfc/data/fr_5474.wav",
+      "interrupt_start": 206.624,
+      "interrupt_end": 206.834,
+      "interrupt_events": "",
+      "start": 206.624,
+      "duration": 0.21
+    },
+    {
+      "id": "fr_5498#A#651.821_662.316",
+      "quality_score": 0.51,
+      "source_wav": "data/callfc/data/fr_5498.wav",
+      "interrupt_start": 651.821,
+      "interrupt_end": 662.316,
+      "interrupt_events": "",
+      "start": 651.821,
+      "duration": 10.5
+    },
+    {
+      "id": "fr_5506#A#1650.224_1651.004",
+      "quality_score": 0.5025,
+      "source_wav": "data/callfc/data/fr_5506.wav",
+      "interrupt_start": 1650.224,
+      "interrupt_end": 1651.004,
+      "interrupt_events": "",
+      "start": 1650.224,
+      "duration": 0.78
+    },
+    {
+      "id": "fr_5465#A#168.930_170.980",
+      "quality_score": 0.4993,
+      "source_wav": "data/callfc/data/fr_5465.wav",
+      "interrupt_start": 168.93,
+      "interrupt_end": 170.98,
+      "interrupt_events": "",
+      "start": 168.93,
+      "duration": 2.05
+    },
+    {
+      "id": "fr_5482#A#1610.306_1614.582",
+      "quality_score": 0.4957,
+      "source_wav": "data/callfc/data/fr_5482.wav",
+      "interrupt_start": 1610.306,
+      "interrupt_end": 1614.582,
+      "interrupt_events": "",
+      "start": 1610.306,
+      "duration": 4.28
+    },
+    {
+      "id": "fr_5474#A#602.802_604.814",
+      "quality_score": 0.4938,
+      "source_wav": "data/callfc/data/fr_5474.wav",
+      "interrupt_start": 602.802,
+      "interrupt_end": 604.814,
+      "interrupt_events": "",
+      "start": 602.802,
+      "duration": 2.01
+    },
+    {
+      "id": "fr_5483#A#123.187_125.794",
+      "quality_score": 0.4935,
+      "source_wav": "data/callfc/data/fr_5483.wav",
+      "interrupt_start": 123.187,
+      "interrupt_end": 125.794,
+      "interrupt_events": "",
+      "start": 123.187,
+      "duration": 2.61
+    },
+    {
+      "id": "fr_5465#A#635.052_635.511",
+      "quality_score": 0.4929,
+      "source_wav": "data/callfc/data/fr_5465.wav",
+      "interrupt_start": 635.052,
+      "interrupt_end": 635.511,
+      "interrupt_events": "",
+      "start": 635.052,
+      "duration": 0.46
+    },
+    {
+      "id": "fr_5481#A#130.236_131.624",
+      "quality_score": 0.4929,
+      "source_wav": "data/callfc/data/fr_5481.wav",
+      "interrupt_start": 130.236,
+      "interrupt_end": 131.624,
+      "interrupt_events": "",
+      "start": 130.236,
+      "duration": 1.39
+    },
+    {
+      "id": "fr_5499#A#1058.322_1058.792",
+      "quality_score": 0.4884,
+      "source_wav": "data/callfc/data/fr_5499.wav",
+      "interrupt_start": 1058.322,
+      "interrupt_end": 1058.792,
+      "interrupt_events": "",
+      "start": 1058.322,
+      "duration": 0.47
+    },
+    {
+      "id": "fr_5499#A#55.904_57.582",
+      "quality_score": 0.488,
+      "source_wav": "data/callfc/data/fr_5499.wav",
+      "interrupt_start": 55.904,
+      "interrupt_end": 57.582,
+      "interrupt_events": "",
+      "start": 55.904,
+      "duration": 1.68
+    },
+    {
+      "id": "fr_5465#A#1050.674_1052.610",
+      "quality_score": 0.4852,
+      "source_wav": "data/callfc/data/fr_5465.wav",
+      "interrupt_start": 1050.674,
+      "interrupt_end": 1052.61,
+      "interrupt_events": "",
+      "start": 1050.674,
+      "duration": 1.94
+    },
+    {
+      "id": "fr_5461#A#1332.960_1337.024",
+      "quality_score": 0.4804,
+      "source_wav": "data/callfc/data/fr_5461.wav",
+      "interrupt_start": 1332.96,
+      "interrupt_end": 1337.024,
+      "interrupt_events": "",
+      "start": 1332.96,
+      "duration": 4.06
+    },
+    {
+      "id": "fr_5405#A#1686.565_1691.102",
+      "quality_score": 0.4775,
+      "source_wav": "data/callfc/data/fr_5405.wav",
+      "interrupt_start": 1686.565,
+      "interrupt_end": 1691.102,
+      "interrupt_events": "",
+      "start": 1686.565,
+      "duration": 4.54
+    },
+    {
+      "id": "fr_5404#A#1015.954_1016.244",
+      "quality_score": 0.4595,
+      "source_wav": "data/callfc/data/fr_5404.wav",
+      "interrupt_start": 1015.954,
+      "interrupt_end": 1016.244,
+      "interrupt_events": "",
+      "start": 1015.954,
+      "duration": 0.29
+    },
+    {
+      "id": "fr_5500#A#1256.427_1257.375",
+      "quality_score": 0.4584,
+      "source_wav": "data/callfc/data/fr_5500.wav",
+      "interrupt_start": 1256.427,
+      "interrupt_end": 1257.375,
+      "interrupt_events": "",
+      "start": 1256.427,
+      "duration": 0.95
+    },
+    {
+      "id": "fr_5466#A#477.170_477.350",
+      "quality_score": 0.4536,
+      "source_wav": "data/callfc/data/fr_5466.wav",
+      "interrupt_start": 477.17,
+      "interrupt_end": 477.35,
+      "interrupt_events": "",
+      "start": 477.17,
+      "duration": 0.18
+    },
+    {
+      "id": "fr_5461#A#517.144_519.470",
+      "quality_score": 0.4503,
+      "source_wav": "data/callfc/data/fr_5461.wav",
+      "interrupt_start": 517.144,
+      "interrupt_end": 519.47,
+      "interrupt_events": "",
+      "start": 517.144,
+      "duration": 2.33
+    },
+    {
+      "id": "fr_5483#A#364.386_365.016",
+      "quality_score": 0.4385,
+      "source_wav": "data/callfc/data/fr_5483.wav",
+      "interrupt_start": 364.386,
+      "interrupt_end": 365.016,
+      "interrupt_events": "",
+      "start": 364.386,
+      "duration": 0.63
+    },
+    {
+      "id": "fr_5482#A#1574.949_1583.475",
+      "quality_score": 0.4319,
+      "source_wav": "data/callfc/data/fr_5482.wav",
+      "interrupt_start": 1574.949,
+      "interrupt_end": 1583.475,
+      "interrupt_events": "",
+      "start": 1574.949,
+      "duration": 8.53
+    },
+    {
+      "id": "fr_5499#A#37.999_38.800",
+      "quality_score": 0.4028,
+      "source_wav": "data/callfc/data/fr_5499.wav",
+      "interrupt_start": 37.999,
+      "interrupt_end": 38.8,
+      "interrupt_events": "",
+      "start": 37.999,
+      "duration": 0.8
+    },
+    {
+      "id": "fr_5405#A#200.938_201.528",
+      "quality_score": 0.3992,
+      "source_wav": "data/callfc/data/fr_5405.wav",
+      "interrupt_start": 200.938,
+      "interrupt_end": 201.528,
+      "interrupt_events": "",
+      "start": 200.938,
+      "duration": 0.59
+    },
+    {
+      "id": "fr_5466#A#951.944_953.181",
+      "quality_score": 0.3976,
+      "source_wav": "data/callfc/data/fr_5466.wav",
+      "interrupt_start": 951.944,
+      "interrupt_end": 953.181,
+      "interrupt_events": "",
+      "start": 951.944,
+      "duration": 1.24
+    },
+    {
+      "id": "fr_5461#A#1283.744_1284.069",
+      "quality_score": 0.3947,
+      "source_wav": "data/callfc/data/fr_5461.wav",
+      "interrupt_start": 1283.744,
+      "interrupt_end": 1284.069,
+      "interrupt_events": "",
+      "start": 1283.744,
+      "duration": 0.33
+    },
+    {
+      "id": "fr_5499#A#1584.514_1585.524",
+      "quality_score": 0.3931,
+      "source_wav": "data/callfc/data/fr_5499.wav",
+      "interrupt_start": 1584.514,
+      "interrupt_end": 1585.524,
+      "interrupt_events": "",
+      "start": 1584.514,
+      "duration": 1.01
+    },
+    {
+      "id": "fr_5474#A#306.444_306.994",
+      "quality_score": 0.376,
+      "source_wav": "data/callfc/data/fr_5474.wav",
+      "interrupt_start": 306.444,
+      "interrupt_end": 306.994,
+      "interrupt_events": "",
+      "start": 306.444,
+      "duration": 0.55
+    },
+    {
+      "id": "fr_5508#A#340.532_341.632",
+      "quality_score": 0.355,
+      "source_wav": "data/callfc/data/fr_5508.wav",
+      "interrupt_start": 340.532,
+      "interrupt_end": 341.632,
+      "interrupt_events": "",
+      "start": 340.532,
+      "duration": 1.1
+    },
+    {
+      "id": "fr_5481#A#709.258_713.047",
+      "quality_score": 0.3494,
+      "source_wav": "data/callfc/data/fr_5481.wav",
+      "interrupt_start": 709.258,
+      "interrupt_end": 713.047,
+      "interrupt_events": "",
+      "start": 709.258,
+      "duration": 3.79
+    },
+    {
+      "id": "fr_5404#A#1681.256_1682.795",
+      "quality_score": 0.3366,
+      "source_wav": "data/callfc/data/fr_5404.wav",
+      "interrupt_start": 1681.256,
+      "interrupt_end": 1682.795,
+      "interrupt_events": "",
+      "start": 1681.256,
+      "duration": 1.54
+    },
+    {
+      "id": "fr_5405#A#713.548_713.998",
+      "quality_score": 0.3361,
+      "source_wav": "data/callfc/data/fr_5405.wav",
+      "interrupt_start": 713.548,
+      "interrupt_end": 713.998,
+      "interrupt_events": "",
+      "start": 713.548,
+      "duration": 0.45
+    },
+    {
+      "id": "fr_5485#A#786.714_787.034",
+      "quality_score": 0.3322,
+      "source_wav": "data/callfc/data/fr_5485.wav",
+      "interrupt_start": 786.714,
+      "interrupt_end": 787.034,
+      "interrupt_events": "",
+      "start": 786.714,
+      "duration": 0.32
+    },
+    {
+      "id": "fr_5482#A#589.770_590.526",
+      "quality_score": 0.3207,
+      "source_wav": "data/callfc/data/fr_5482.wav",
+      "interrupt_start": 589.77,
+      "interrupt_end": 590.526,
+      "interrupt_events": "",
+      "start": 589.77,
+      "duration": 0.76
+    },
+    {
+      "id": "fr_5464#A#1786.829_1787.329",
+      "quality_score": 0.3131,
+      "source_wav": "data/callfc/data/fr_5464.wav",
+      "interrupt_start": 1786.829,
+      "interrupt_end": 1787.329,
+      "interrupt_events": "",
+      "start": 1786.829,
+      "duration": 0.5
+    },
+    {
+      "id": "fr_5481#A#1367.266_1369.276",
+      "quality_score": 0.3083,
+      "source_wav": "data/callfc/data/fr_5481.wav",
+      "interrupt_start": 1367.266,
+      "interrupt_end": 1369.276,
+      "interrupt_events": "",
+      "start": 1367.266,
+      "duration": 2.01
+    },
+    {
+      "id": "fr_5404#A#819.470_819.580",
+      "quality_score": 0.3063,
+      "source_wav": "data/callfc/data/fr_5404.wav",
+      "interrupt_start": 819.47,
+      "interrupt_end": 819.58,
+      "interrupt_events": "",
+      "start": 819.47,
+      "duration": 0.11
+    },
+    {
+      "id": "fr_5465#A#82.225_83.088",
+      "quality_score": 0.3029,
+      "source_wav": "data/callfc/data/fr_5465.wav",
+      "interrupt_start": 82.225,
+      "interrupt_end": 83.088,
+      "interrupt_events": "",
+      "start": 82.225,
+      "duration": 0.86
+    },
+    {
+      "id": "fr_5404#A#594.706_595.514",
+      "quality_score": 0.2997,
+      "source_wav": "data/callfc/data/fr_5404.wav",
+      "interrupt_start": 594.706,
+      "interrupt_end": 595.514,
+      "interrupt_events": "",
+      "start": 594.706,
+      "duration": 0.81
+    },
+    {
+      "id": "fr_5500#A#2.178_2.478",
+      "quality_score": 0.2994,
+      "source_wav": "data/callfc/data/fr_5500.wav",
+      "interrupt_start": 2.178,
+      "interrupt_end": 2.478,
+      "interrupt_events": "",
+      "start": 2.178,
+      "duration": 0.3
+    },
+    {
+      "id": "fr_5465#A#1316.994_1317.674",
+      "quality_score": 0.2951,
+      "source_wav": "data/callfc/data/fr_5465.wav",
+      "interrupt_start": 1316.994,
+      "interrupt_end": 1317.674,
+      "interrupt_events": "",
+      "start": 1316.994,
+      "duration": 0.68
+    },
+    {
+      "id": "fr_5481#A#122.897_124.130",
+      "quality_score": 0.2892,
+      "source_wav": "data/callfc/data/fr_5481.wav",
+      "interrupt_start": 122.897,
+      "interrupt_end": 124.13,
+      "interrupt_events": "",
+      "start": 122.897,
+      "duration": 1.23
+    },
+    {
+      "id": "fr_5474#A#740.160_740.410",
+      "quality_score": 0.2837,
+      "source_wav": "data/callfc/data/fr_5474.wav",
+      "interrupt_start": 740.16,
+      "interrupt_end": 740.41,
+      "interrupt_events": "",
+      "start": 740.16,
+      "duration": 0.25
+    },
+    {
+      "id": "fr_5474#A#670.971_671.561",
+      "quality_score": 0.2776,
+      "source_wav": "data/callfc/data/fr_5474.wav",
+      "interrupt_start": 670.971,
+      "interrupt_end": 671.561,
+      "interrupt_events": "",
+      "start": 670.971,
+      "duration": 0.59
+    },
+    {
+      "id": "fr_5498#A#1466.546_1466.792",
+      "quality_score": 0.2774,
+      "source_wav": "data/callfc/data/fr_5498.wav",
+      "interrupt_start": 1466.546,
+      "interrupt_end": 1466.792,
+      "interrupt_events": "",
+      "start": 1466.546,
+      "duration": 0.25
+    },
+    {
+      "id": "fr_5482#A#463.567_463.962",
+      "quality_score": 0.2665,
+      "source_wav": "data/callfc/data/fr_5482.wav",
+      "interrupt_start": 463.567,
+      "interrupt_end": 463.962,
+      "interrupt_events": "",
+      "start": 463.567,
+      "duration": 0.39
+    },
+    {
+      "id": "fr_5466#A#1356.132_1357.380",
+      "quality_score": 0.244,
+      "source_wav": "data/callfc/data/fr_5466.wav",
+      "interrupt_start": 1356.132,
+      "interrupt_end": 1357.38,
+      "interrupt_events": "",
+      "start": 1356.132,
+      "duration": 1.25
+    },
+    {
+      "id": "fr_5461#A#1244.998_1245.524",
+      "quality_score": 0.237,
+      "source_wav": "data/callfc/data/fr_5461.wav",
+      "interrupt_start": 1244.998,
+      "interrupt_end": 1245.524,
+      "interrupt_events": "",
+      "start": 1244.998,
+      "duration": 0.53
+    },
+    {
+      "id": "fr_5474#A#920.442_920.604",
+      "quality_score": 0.2369,
+      "source_wav": "data/callfc/data/fr_5474.wav",
+      "interrupt_start": 920.442,
+      "interrupt_end": 920.604,
+      "interrupt_events": "",
+      "start": 920.442,
+      "duration": 0.16
+    },
+    {
+      "id": "fr_5405#A#1741.882_1742.452",
+      "quality_score": 0.2344,
+      "source_wav": "data/callfc/data/fr_5405.wav",
+      "interrupt_start": 1741.882,
+      "interrupt_end": 1742.452,
+      "interrupt_events": "",
+      "start": 1741.882,
+      "duration": 0.57
+    },
+    {
+      "id": "fr_5462#A#878.298_879.226",
+      "quality_score": 0.2284,
+      "source_wav": "data/callfc/data/fr_5462.wav",
+      "interrupt_start": 878.298,
+      "interrupt_end": 879.226,
+      "interrupt_events": "",
+      "start": 878.298,
+      "duration": 0.93
+    },
+    {
+      "id": "fr_5465#A#604.338_605.068",
+      "quality_score": 0.2267,
+      "source_wav": "data/callfc/data/fr_5465.wav",
+      "interrupt_start": 604.338,
+      "interrupt_end": 605.068,
+      "interrupt_events": "",
+      "start": 604.338,
+      "duration": 0.73
+    },
+    {
+      "id": "fr_5481#A#718.449_719.689",
+      "quality_score": 0.2218,
+      "source_wav": "data/callfc/data/fr_5481.wav",
+      "interrupt_start": 718.449,
+      "interrupt_end": 719.689,
+      "interrupt_events": "",
+      "start": 718.449,
+      "duration": 1.24
+    },
+    {
+      "id": "fr_5482#A#1154.306_1154.556",
+      "quality_score": 0.2111,
+      "source_wav": "data/callfc/data/fr_5482.wav",
+      "interrupt_start": 1154.306,
+      "interrupt_end": 1154.556,
+      "interrupt_events": "",
+      "start": 1154.306,
+      "duration": 0.25
+    },
+    {
+      "id": "fr_5499#A#82.347_82.647",
+      "quality_score": 0.1607,
+      "source_wav": "data/callfc/data/fr_5499.wav",
+      "interrupt_start": 82.347,
+      "interrupt_end": 82.647,
+      "interrupt_events": "",
+      "start": 82.347,
+      "duration": 0.3
+    }
+  ]
+}

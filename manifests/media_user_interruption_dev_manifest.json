@@ -1,0 +1,97 @@
+{
+  "task": "user_interruption",
+  "dataset": "media",
+  "split": "dev",
+  "samples": [
+    {
+      "id": "L1348#speaker_1_087300_1348#110.973_111.823",
+      "quality_score": 0.7113,
+      "source_wav": "data/media/MEDIA1FR_02/MEDIA1FR/BLOCK11/1348.wav",
+      "interrupt_start": 110.973,
+      "interrupt_end": 111.823,
+      "interrupt_events": "",
+      "start": 110.973,
+      "duration": 0.85
+    },
+    {
+      "id": "L1455#speaker_1_087300_1455#156.058_157.058",
+      "quality_score": 0.6465,
+      "source_wav": "data/media/MEDIA1FR_02/MEDIA1FR/BLOCK12/1455.wav",
+      "interrupt_start": 156.058,
+      "interrupt_end": 157.058,
+      "interrupt_events": "",
+      "start": 156.058,
+      "duration": 1.0
+    },
+    {
+      "id": "L1440#speaker_1_087300_1440#159.041_159.851",
+      "quality_score": 0.5519,
+      "source_wav": "data/media/MEDIA1FR_02/MEDIA1FR/BLOCK12/1440.wav",
+      "interrupt_start": 159.041,
+      "interrupt_end": 159.851,
+      "interrupt_events": "",
+      "start": 159.041,
+      "duration": 0.81
+    },
+    {
+      "id": "R1361#speaker_1_087300_1361#135.515_136.245",
+      "quality_score": 0.5475,
+      "source_wav": "data/media/MEDIA1FR_02/MEDIA1FR/BLOCK11/1361.wav",
+      "interrupt_start": 135.515,
+      "interrupt_end": 136.245,
+      "interrupt_events": "",
+      "start": 135.515,
+      "duration": 0.73
+    },
+    {
+      "id": "L1400#speaker_1_087300_1400#47.317_47.767",
+      "quality_score": 0.5401,
+      "source_wav": "data/media/MEDIA1FR_02/MEDIA1FR/BLOCK11/1400.wav",
+      "interrupt_start": 47.317,
+      "interrupt_end": 47.767,
+      "interrupt_events": "",
+      "start": 47.317,
+      "duration": 0.45
+    },
+    {
+      "id": "L1441#speaker_1_087300_1441#47.765_49.972",
+      "quality_score": 0.3626,
+      "source_wav": "data/media/MEDIA1FR_02/MEDIA1FR/BLOCK12/1441.wav",
+      "interrupt_start": 47.765,
+      "interrupt_end": 49.972,
+      "interrupt_events": "",
+      "start": 47.765,
+      "duration": 2.21
+    },
+    {
+      "id": "R1383#speaker_1_087300_1383#126.669_129.219",
+      "quality_score": 0.3473,
+      "source_wav": "data/media/MEDIA1FR_02/MEDIA1FR/BLOCK11/1383.wav",
+      "interrupt_start": 126.669,
+      "interrupt_end": 129.219,
+      "interrupt_events": "",
+      "start": 126.669,
+      "duration": 2.55
+    },
+    {
+      "id": "R1439#speaker_1_087300_1439#193.182_194.296",
+      "quality_score": 0.3002,
+      "source_wav": "data/media/MEDIA1FR_02/MEDIA1FR/BLOCK12/1439.wav",
+      "interrupt_start": 193.182,
+      "interrupt_end": 194.296,
+      "interrupt_events": "",
+      "start": 193.182,
+      "duration": 1.11
+    },
+    {
+      "id": "L1357#speaker_1_087300_1357#118.280_118.820",
+      "quality_score": 0.2822,
+      "source_wav": "data/media/MEDIA1FR_02/MEDIA1FR/BLOCK11/1357.wav",
+      "interrupt_start": 118.28,
+      "interrupt_end": 118.82,
+      "interrupt_events": "",
+      "start": 118.28,
+      "duration": 0.54
+    }
+  ]
+}
