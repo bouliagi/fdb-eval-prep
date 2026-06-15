@@ -216,16 +216,19 @@ After running `reproduce_fdb.sh callfc`, the output tree looks like:
 
 ```
 fdb_callfc/
-├── gt_distribution.json         # backchannel GT (used by evaluator)
+├── gt_distribution.json         # backchannel GT (used by evaluator, keys are integer indices)
 ├── backchannel/
-│   ├── fr_5403_A_462-775_494-260/
-│   │   ├── metadata.json
+│   ├── 0/                        # Integer-indexed sample directories (matching Full-Duplex-Bench)
+│   │   ├── metadata.json         # Includes sample_index and original_id for traceability
 │   │   └── input.wav             # 16 kHz mono, extracted segment from source
-│   ├── fr_5475_A_718-444_755-584/
+│   ├── 1/
 │   │   ├── metadata.json
-│   │   └── input.wav             # ...
+│   │   └── input.wav
 │   └── ...
 ├── pause_handling/
+│   ├── 0/
+│   │   ├── metadata.json
+│   │   └── input.wav
 │   └── ...
 ├── smooth_turn_taking/
 │   └── ...
@@ -233,11 +236,18 @@ fdb_callfc/
     └── ...
 ```
 
-**metadata.json** contains task-specific fields:
+**Directory Naming:**
+- Sample directories are named with integer indices (0, 1, 2, ...) in order of quality score (best first)
+- This matches the Full-Duplex-Bench convention
+- Original sample IDs are preserved in metadata.json for traceability
+
+**metadata.json** contains task-specific fields plus traceability:
 
 Backchannel:
 ```json
 {
+  "sample_index": 0,
+  "original_id": "fr_5403#A#462.775_494.260",
   "id": "fr_5403_A_462-775_494-260",
   "bc_start": 482.234,
   "bc_end": 483.386,

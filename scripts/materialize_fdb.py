@@ -143,14 +143,18 @@ def materialize_samples(manifest_paths, output_root, top_n=DEFAULT_TOP_N, gt_dis
     print(f"Materializing {len(samples)} samples{cap_note} → {task_dir}")
 
     for i, sample in enumerate(samples):
-        fdb_id = normalize_sample_id(sample["id"])
-        sample_dir = task_dir / fdb_id
+        # Use integer index as directory name (matching Full-Duplex-Bench convention)
+        sample_dir = task_dir / str(i)
         sample_dir.mkdir(parents=True, exist_ok=True)
 
-        # Write metadata.json
+        # Write metadata.json (include original sample ID for reference)
         metadata_path = sample_dir / "metadata.json"
+        metadata = build_metadata(sample, task)
+        # Add sample_index and original_id for traceability
+        metadata["sample_index"] = i
+        metadata["original_id"] = sample["id"]
         with open(metadata_path, "w") as f:
-            json.dump(build_metadata(sample, task), f, indent=2)
+            json.dump(metadata, f, indent=2)
 
         # Extract audio segment from source WAV
         source_wav_path = sample.get("source_wav")
