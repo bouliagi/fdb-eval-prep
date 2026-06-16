@@ -108,23 +108,51 @@ fdb_callfc/
 └── user_interruption/
 ```
 
-### 3. Add model outputs
+### 3. Run model inference and write `output.wav`
 
-For each sample directory, place your model's audio and JSON response:
+Follow the Full-Duplex-Bench inference pattern: for each sample directory, run
+your model on `input.wav` and write time-synchronous model speech to
+`output.wav`.
+
+Use integer-indexed sample directories (not old ID-style names):
 
 ```bash
-cp my_model_output.wav \
-   fdb_callfc/backchannel/fr_5403_A_462-775_494-260/output.wav
-cp my_model_output.json \
-   fdb_callfc/backchannel/fr_5403_A_462-775_494-260/output.json
+# Example: run your model and save output for sample 0
+python /path/to/your_inference.py \
+  --input_wav fdb_callfc/backchannel/0/input.wav \
+  --output_wav fdb_callfc/backchannel/0/output.wav
+
+# Another sample
+python /path/to/your_inference.py \
+  --input_wav fdb_callfc/backchannel/1/input.wav \
+  --output_wav fdb_callfc/backchannel/1/output.wav
 ```
 
-### 4. Evaluate
+Repeat for all samples in each task directory you want to evaluate.
+
+### 4. Prepare transcripts, then evaluate
+
+After generating `output.wav`, follow the same two-stage post-processing flow as
+Full-Duplex-Bench:
+
+1. Generate time-aligned transcripts for model-generated `output.wav`
+2. Run task evaluation using those transcripts + FDB metadata
 
 ```bash
-python $FDB_EVAL_ROOT/eval_backchannel.py \
+# 4.1 Time-aligned transcripts for model outputs
+# See Full-Duplex-Bench: v1_v1.5/get_transcript/README.md
+python $FDB_ROOT/v1_v1.5/get_transcript/asr.py \
+  --base_dir fdb_callfc \
+  --task backchannel
+
+# 4.2 Run evaluation
+# See Full-Duplex-Bench: v1_v1.5/evaluation/README.md
+python $FDB_ROOT/v1_v1.5/evaluation/eval_backchannel.py \
   --root_dir fdb_callfc/backchannel
 ```
+
+Use the corresponding task evaluator for `pause_handling`,
+`smooth_turn_taking`, and `user_interruption`.
 
 ## Scripts Reference
 
@@ -156,7 +184,8 @@ python scripts/build_gt_distribution.py \
 - `--top-n`: Keep only N highest-scoring samples (default: 150; 0 = unlimited)
 - `--window_size`: Bin width in seconds (default 0.2, matches evaluator)
 
-**Output:** JSON mapping normalized sample IDs to lists of bin probabilities
+**Output:** JSON mapping integer sample indices (`"0"`, `"1"`, ...) to lists of
+bin probabilities
 
 ### materialize_fdb.py
 
@@ -321,14 +350,14 @@ GT distribution uses relative times from clip origin (user turn start), with 0.2
 
 This matches the evaluator's behavior exactly, ensuring fair JSD scoring.
 
-### Sample ID Normalization
+### Sample IDs and Integer Directory Indexing
 
-CSV uses format: `fr_5403#A#462.775_494.260`
-FDB directories use: `fr_5403_A_462-775_494-260`
+Manifest samples keep original source IDs (for example:
+`fr_5403#A#462.775_494.260`) for traceability.
 
-Conversion: Replace `#` with `_`, replace `.` with `-`
-
-This ensures FDB directory names match GT distribution keys.
+Materialized FDB sample directories use integer indices (`0`, `1`, ...), and
+`gt_distribution.json` uses the same integer keys. This keeps directory lookup
+and evaluation keying aligned with Full-Duplex-Bench conventions.
 
 ## Updating Manifests
 
