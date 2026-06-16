@@ -295,10 +295,10 @@ Sample counts per manifest (req_ok=True, quality_score >= 0.0):
 - user_interruption dev: 79, test: 104
 
 **MEDIA:**
-- backchannel dev: 66, test: 0
-- pause_handling dev: 1111, test: 1218
-- smooth_turn_taking dev: 281, test: 245
-- user_interruption dev: 21, test: 77
+- backchannel dev: 0, test: 0
+- pause_handling dev: 239, test: 529
+- smooth_turn_taking dev: 40, test: 56
+- user_interruption dev: 9, test: 29
 
 ## Manifest Format
 
